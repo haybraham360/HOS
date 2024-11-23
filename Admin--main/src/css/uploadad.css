@@ -1,0 +1,492 @@
+.upload {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 99%;
+    height: 2420px;
+}
+
+.upload .profile-name {
+    position: fixed;
+    top: 37px;
+    left: 1120px;
+    color: #1A1A1A;
+    font-weight: 500;
+    font-family: 'montserrat';
+    font-size: 16px;
+    line-height: 26px;
+    text-align: left;
+    z-index: 100;
+}
+
+.upload .profile-pic {
+    position: fixed;
+    top: 37px;
+    left: 1220px;
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+    z-index: 100;
+}
+
+.upload .advertise-image {
+    position: absolute;
+    top: 170px;
+    left: 38px;
+    width: 94%;
+}
+
+.upload .title1 {
+    position: absolute;
+    top: 250px;
+    left: 108px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: 'montserrat';
+    font-size: 26px;
+    line-height: 35px;
+    text-align: left;
+}
+
+.upload .title2 {
+    position: absolute;
+    top: 550px;
+    left: 38px;
+    color: #000000;
+    font-weight: 700;
+    font-family: 'montserrat';
+    font-size: 20px;
+    line-height: 35px;
+    text-align: left;
+}
+
+.upload .line {
+    position: absolute;
+    top: 566px;
+    left: 270px;
+    height: 1px;
+    width: 72%;
+}
+
+.upload .chat {
+    position: absolute;
+    top: 536px;
+    left: 1250px;
+    height: 60px;
+    width: 60px;
+}
+
+.upload .frame1 {
+  position: absolute;
+  top: 640px;
+  left: 38px;
+  height: 1200px;
+  width: 500px;
+  border-radius: 6px;
+  background-color: linear-gradient(205deg, rgba(255, 255, 255, 0.96) 1.79%, rgba(255, 255, 255, 0.00) 99.88%);
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.10);
+}
+
+.upload .ad-title {
+  position: absolute;
+  top: 50px;
+  left: 48px;
+  height: 50px;
+  width: 400px;
+  color: #000000;
+  font-weight: 600;
+  font-family: 'montserrat';
+  font-size: 16px;
+  border-radius: 3px;
+  border: 1px solid #C6C6C6;
+  background-color: #F0F0F0;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  overflow: hidden;
+  resize: none;
+}
+
+.upload .word-number {
+  position: absolute;
+  top: 80px;
+  left: 420px;
+  color: #838282;
+  font-weight: 400;
+  font-family: 'montserrat';
+  font-size: 10px;
+}
+
+.upload .ad-description {
+  position: absolute;
+  top: 120px;
+  left: 48px;
+  height: 300px;
+  width: 400px;
+  color: #000000;
+  font-weight: 600;
+  font-family: 'montserrat';
+  font-size: 16px;
+  border-radius: 3px;
+  border: 1px solid #C6C6C6;
+  background-color: #F0F0F0;
+  padding-left: 20px;
+  padding-top: 15px;
+  padding-bottom: 250px;
+  padding-right: 20px;
+  overflow: hidden;
+  resize: none;
+}
+
+.upload .word-number2 {
+  position: absolute;
+  top: 400px;
+  left: 415px;
+  color: #838282;
+  font-weight: 400;
+  font-family: 'montserrat';
+  font-size: 10px;
+}
+
+.upload .ad-blog {
+  position: absolute;
+  top: 440px;
+  left: 48px;
+  height: 50px;
+  width: 400px;
+  color: #000000;
+  font-weight: 600;
+  font-family: 'montserrat';
+  font-size: 16px;
+  border-radius: 3px;
+  border: 1px solid #C6C6C6;
+  background-color: #F0F0F0;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  overflow: hidden;
+  resize: none;
+}
+
+.upload .ad-number {
+  position: absolute;
+  top: 510px;
+  left: 48px;
+  height: 50px;
+  width: 400px;
+  color: #000000;
+  font-weight: 600;
+  font-family: 'montserrat';
+  font-size: 16px;
+  border-radius: 3px;
+  border: 1px solid #C6C6C6;
+  background-color: #F0F0F0;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 0px;
+  overflow: hidden;
+  resize: none;
+}
+
+.upload .ad-choose-banner {
+  position: absolute;
+  top: 580px;
+  left: 48px;
+  height: 50px;
+  width: 400px;
+  color: #000000;
+  font-weight: 600;
+  font-family: 'montserrat';
+  font-size: 16px;
+  border-radius: 3px;
+  border: 1px solid #C6C6C6;
+  background-color: #F0F0F0;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 0px;
+  overflow: hidden;
+  resize: none;
+}
+
+.upload .dropdown-icon {
+  position: absolute;
+  top: 602px;
+  left: 425px;
+  cursor: pointer;
+}
+
+.upload .ad-choose-dimensions {
+  position: absolute;
+  top: 650px;
+  left: 48px;
+  height: 50px;
+  width: 400px;
+  color: #000000;
+  font-weight: 600;
+  font-family: 'montserrat';
+  font-size: 16px;
+  border-radius: 3px;
+  border: 1px solid #C6C6C6;
+  background-color: #F0F0F0;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 0px;
+  overflow: hidden;
+  resize: none;
+}
+
+.upload .dropdown-icon2 {
+  position: absolute;
+  top: 672px;
+  left: 425px;
+  cursor: pointer;
+}
+
+.upload .ad-choose-size {
+  position: absolute;
+  top: 720px;
+  left: 48px;
+  height: 50px;
+  width: 195px;
+  color: #000000;
+  font-weight: 600;
+  font-family: 'montserrat';
+  font-size: 16px;
+  border-radius: 3px;
+  border: 1px solid #C6C6C6;
+  background-color: #F0F0F0;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 0px;
+  overflow: hidden;
+  resize: none;
+}
+
+.upload .dropdown-icon3 {
+  position: absolute;
+  top: 742px;
+  left: 220px;
+  cursor: pointer;
+}
+
+.upload .ad-amount {
+  position: absolute;
+  top: 720px;
+  left: 253px;
+  height: 50px;
+  width: 195px;
+  color: #000000;
+  font-weight: 600;
+  font-family: 'montserrat';
+  font-size: 16px;
+  border-radius: 3px;
+  border: 1px solid #C6C6C6;
+  background-color: #F0F0F0;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 0px;
+  overflow: hidden;
+  resize: none;
+}
+
+.upload .preview-button {
+    position: absolute;
+    top: 790px;
+    left: 48px;
+    height: 40px;
+    width: 400px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: 'montserrat';
+    font-size: 14px;
+    background-color: #003366;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.upload .preview-button:hover {
+    background-color: #0252a1;
+}
+
+.upload .pay-now-button {
+  position: absolute;
+  top: 850px;
+  left: 48px;
+  height: 40px;
+  width: 400px;
+  color: #ffffff;
+  font-weight: 600;
+  font-family: 'montserrat';
+  font-size: 14px;
+  background-color: #70bf4c;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.upload .pay-now-button:hover {
+  background-color: #03d387;
+}
+
+.upload .paragraph {
+  position: absolute;
+  top: 940px;
+  left: 48px;
+  color: #000000;
+  font-weight: 400;
+  font-family: 'montserrat';
+  font-size: 16px;
+  line-height: 26px;
+  text-align: left;
+}
+
+.upload .frame2 {
+  position: absolute;
+  top: 640px;
+  left: 600px;
+  height: 1580px;
+  width: 700px;
+  border-radius: 6px;
+  border: 1px solid #898989;
+  background-color: #ffffff;
+}
+
+.upload .title3 {
+  position: absolute;
+  top: 650px;
+  left: 890px;
+  color: #000000;
+  font-weight: 700;
+  font-family: 'montserrat';
+  font-size: 20px;
+  line-height: 35px;
+  text-align: left;
+}
+
+.upload .close {
+  position: absolute;
+  top: 650px;
+  left: 1265px;
+  height: 20px;
+  width: 20px;
+  font-family: 'montserrat';
+  font-weight: 600;
+  font-size: 14px;
+  border: 1px solid #000000;
+  background-color: transparent;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.upload .full-screen {
+  position: absolute;
+  top: 650px;
+  left: 1225px;
+  height: 20px;
+  width: 20px;
+  font-family: 'montserrat';
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.upload .ads-preview-container {
+  position: relative;
+  top: 450px;
+  left: 800px;
+  max-height: 20%;
+  max-width: 20%;
+  font-family: 'montserrat';
+  font-weight: 600;
+  font-size: 16px;
+  text-wrap: nowrap;
+  z-index: 1;
+}
+
+.upload .footer2 {
+    position: absolute;
+    top: 2340px;
+    left: 0px;
+    height: 80px;
+    width: 100%;
+    background-color: #003366;
+}
+
+.upload .aboutusgroup {
+    position: absolute;
+    margin-top: 2385px;
+    left: 38px;
+    display: flex;
+    align-items: left;
+    gap: 30px;
+    text-align: left;
+    font-family: 'montserrat';
+    font-weight: 600;
+    font-size: 12px;
+    color: #ffffff;
+ }
+
+ .upload .footerlinks {
+    color: #ffffff;
+    cursor: pointer;
+  }
+ 
+  .upload .footerlinks:hover {
+    color: #03d387;
+  }
+
+  .upload .social-links {
+    position: absolute;
+    display: flex;
+    gap: 35px;
+    margin-top: 2385px;
+    left: 435px;
+  }
+ 
+  .upload .facebook-icon {
+    cursor: pointer;
+  }
+ 
+  .upload .twitter-icon {
+    height: 20px;
+    cursor: pointer;
+  }
+ 
+  .upload .instagram-icon {
+    cursor: pointer;
+  }
+ 
+  .upload .youtube-icon {
+    cursor: pointer;
+  }
+ 
+  .upload .rights {
+    position: absolute;
+    margin-top: 2390px;
+    left: 72.5%;
+    color: #ffffff;
+    font-family: 'montserrat';
+    font-size: 13px;
+    font-weight: 700;
+  }
+
+.upload .signup-button {
+    position: absolute;
+    margin-top: 2350px;
+    left: 1182px;
+    height: 30px;
+    width: 120px;
+    color: #70bf4c;
+    font-weight: 700;
+    font-family: 'montserrat';
+    font-size: 16px;
+    border: 1px solid #70bf4c;
+    background-color: transparent;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.upload .signup-button:hover {
+    background-color: #ebeaea;
+    color: #003366;
+}

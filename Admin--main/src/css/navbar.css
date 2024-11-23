@@ -1,0 +1,482 @@
+.font-link {
+    font-family: "Poppins", sans-serif, bold;
+  }
+
+.navbar {
+    position: fixed;
+    padding: 15px 30px;
+    width: 100%;
+    height: 100px;
+    background-color: #FFFFFF;
+    align-items: center;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0;
+    z-index: 100;
+    word-spacing: 20px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+.nav-logo {
+    position: absolute;
+    align-items: center;
+    margin-left: 0.8%;
+    top: 32px;
+  }
+
+.navbar .links {
+  position: absolute;
+  text-align: center;
+  padding: 30px;
+  top: 10px;
+  color: #FFFFFF;
+  font-weight: 600;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  margin-left: 240px;
+  display: flex;
+  gap: 30px;
+  }
+
+.navbar .links a {
+    color: #FFFFFF;
+    transition: .3s;
+  }
+
+.navbar .links a:hover {
+  color: #70E000;
+}
+
+.navbar .searchinput {
+  position: absolute;
+  top: 25px;
+  left: 10px;
+  color: #000000;
+  background-color: #EFEFEF;
+  border-radius: 5px;
+  height: 30px;
+  width: 250px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 24px;
+  padding-left: 40px;
+}
+
+.navbar .searchinput::placeholder {
+  color: #6d6d6d;
+  font-size: small;
+  padding-left: 0px;
+}
+
+.navbar .searchicon {
+  position: absolute;
+  top: 32px;
+  left: 24px;
+}
+
+.navbar .leaderboardbutton {
+  position: absolute;
+  top: 108px;
+  left: 662px;
+  height: 40px;
+  width: 170px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  color: #ffffff;
+  border: 1px solid #fff;
+  border-radius: 9px;
+  background-color: #1b3664;
+  cursor: pointer;
+}
+
+.navbar .leaderboardbutton:hover {
+  background-color: #ffffff;
+  color: #1b3664;
+  border: 1px solid #1b3664;
+}
+
+.navbar .dropbtn2 {
+  position: absolute;
+  top: 30px;
+  left: 1018px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.navbar .dropbtn2:hover {
+  background-color: #f0f0f0;
+}
+
+.navbar .dropdown-content {
+  position: absolute;
+  top: 55px;
+  left: -270px;
+  color: #000000;
+  background-color: #f0f0f0;
+  min-width: 1350px;
+  height: 470px;
+  max-width: 1440px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.navbar .navmenugroup1 {
+  position: absolute;
+  top: 80px;
+  left: 148px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+  text-wrap: nowrap;
+  word-spacing: normal;
+  text-align: left;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.navbar .title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.navbar .navmenugroup2 {
+  position: absolute;
+  top: 80px;
+  left: 448px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+  text-wrap: nowrap;
+  word-spacing: normal;
+  text-align: left;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.navbar .navmenugroup3 {
+  position: absolute;
+  top: 80px;
+  left: 748px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+  text-wrap: nowrap;
+  word-spacing: normal;
+  text-align: left;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.navbar .navmenugroup4 {
+  position: absolute;
+  top: 80px;
+  left: 1098px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  text-wrap: nowrap;
+  word-spacing: normal;
+  text-align: left;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.navbar .aboutus {
+  position: absolute;
+  top: 48px;
+  left: 0px;
+  height: 20px;
+  color: #000000;
+  background-color: transparent;
+  cursor: pointer;
+  justify-content: left;
+}
+
+.navbar .aboutus:hover {
+  color: #70Bf4c;
+}
+
+.navbar .media-page {
+  position: absolute;
+  top: 98px;
+  left: 0px;
+  height: 20px;
+  color: #000000;
+  background-color: transparent;
+  cursor: pointer;
+  justify-content: left;
+}
+
+.navbar .media-page:hover {
+  color: #70Bf4c;
+}
+
+.navbar .forum {
+  position: absolute;
+  top: 148px;
+  left: 0px;
+  height: 20px;
+  color: #000000;
+  background-color: transparent;
+  cursor: pointer;
+  justify-content: left;
+}
+
+.navbar .forum:hover {
+  color: #70Bf4c;
+}
+
+.navbar .contactus {
+  position: absolute;
+  top: 198px;
+  left: 0px;
+  height: 20px;
+  color: #000000;
+  background-color: transparent;
+  cursor: pointer;
+  justify-content: left;
+}
+
+.navbar .contactus:hover {
+  color: #70Bf4c;
+}
+
+.navbar .ebooks {
+  position: absolute;
+  top: 48px;
+  left: 0px;
+  height: 20px;
+  color: #000000;
+  background-color: transparent;
+  justify-content: left;
+}
+
+.navbar .ebooks:hover {
+  color: #70Bf4c;
+}
+
+.navbar .e-courses {
+  position: absolute;
+  top: 98px;
+  left: 0px;
+  height: 20px;
+  color: #000000;
+  background-color: transparent;
+  cursor: pointer;
+  justify-content: left;
+}
+
+.navbar .e-courses:hover {
+  color: #70Bf4c;
+}
+
+.navbar .hos-assessment {
+  position: absolute;
+  top: 148px;
+  left: 0px;
+  height: 20px;
+  color: #000000;
+  background-color: transparent;
+  cursor: pointer;
+  justify-content: left;
+}
+
+.navbar .hos-assessment:hover {
+  color: #70Bf4c;
+}
+
+.navbar .market-place {
+  position: absolute;
+  top: 198px;
+  left: 0px;
+  height: 20px;
+  color: #000000;
+  background-color: transparent;
+  cursor: pointer;
+  justify-content: left;
+}
+
+.navbar .market-place:hover {
+  color: #70Bf4c;
+}
+
+.navbar .blogs {
+  position: absolute;
+  top: 48px;
+  left: 0px;
+  height: 20px;
+  color: #000000;
+  background-color: transparent;
+  cursor: pointer;
+  justify-content: left;
+}
+
+.navbar .blogs:hover {
+  color: #70Bf4c;
+}
+
+.navbar .whitepapers {
+  position: absolute;
+  top: 98px;
+  left: 0px;
+  height: 20px;
+  color: #000000;
+  background-color: transparent;
+  cursor: pointer;
+  justify-content: left;
+  min-width: 10rem;
+}
+
+.navbar .whitepapers:hover {
+  color: #70Bf4c;
+}
+
+.navbar .webinars {
+  position: absolute;
+  top: 148px;
+  left: 0px;
+  height: 20px;
+  color: #000000;
+  background-color: transparent;
+  cursor: pointer;
+  justify-content: left;
+}
+
+.navbar .webinars:hover {
+  color: #70Bf4c;
+}
+
+.navbar .case-studies {
+  position: absolute;
+  top: 198px;
+  left: 0px;
+  height: 20px;
+  color: #000000;
+  background-color: transparent;
+  cursor: pointer;
+  justify-content: left;
+}
+
+.navbar .case-studies:hover {
+  color: #70Bf4c;
+}
+
+.navbar .enterprisetraining {
+  position: absolute;
+  top: 48px;
+  left: 0px;
+  height: 20px;
+  color: #000000;
+  background-color: transparent;
+  cursor: pointer;
+  justify-content: left;
+}
+
+.navbar .enterprisetraining:hover {
+  color: #70Bf4c;
+}
+
+.navbar .pilotprograms {
+  position: absolute;
+  top: 98px;
+  left: 0px;
+  height: 20px;
+  color: #000000;
+  background-color: transparent;
+  cursor: pointer;
+  justify-content: left;
+}
+
+.navbar .pilotprograms:hover {
+  color: #70Bf4c;
+}
+
+.navbar .hoscomplianceaudit {
+  position: absolute;
+  top: 148px;
+  left: 0px;
+  height: 20px;
+  color: #000000;
+  background-color: transparent;
+  cursor: pointer;
+  justify-content: left;
+}
+
+.navbar .hoscomplianceaudit:hover {
+  color: #70Bf4c;
+}
+
+.navbar .policy {
+  position: absolute;
+  top: 198px;
+  left: 0px;
+  height: 20px;
+  color: #000000;
+  background-color: transparent;
+  cursor: pointer;
+  justify-content: left;
+}
+
+.navbar .policy:hover {
+  color: #70Bf4c;
+}
+
+.navbar .getaccess {
+  position: absolute;
+  top: 360px;
+  left: 330px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  word-spacing: normal;
+}
+
+.navbar .signinbutton {
+  position: absolute;
+  margin-top: 354px;
+  margin-left: 50px;
+  width: 138px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: #70Bf4c;
+  font-weight: 600;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.navbar .signinbutton:hover {
+  background-color: #7dd455;
+}
+
+.navbar .signupbutton {
+  position: absolute;
+  margin-top: 354px;
+  margin-left: 202px;
+  width: 138px;
+  height: 30px;
+  border: 1px solid #70Bf4c;
+  border-radius: 5px;
+  background-color: transparent;
+  font-weight: 600;
+  color: #70Bf4c;
+  cursor: pointer;
+}
+
+.navbar .signupbutton:hover {
+  background-color: #e9e6e6;
+}

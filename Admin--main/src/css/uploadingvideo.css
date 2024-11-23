@@ -1,0 +1,333 @@
+.uploading {
+    background-color: #ffffff;
+    width: 100%;
+    height: 1696px;
+    overflow: hidden;
+}
+
+.uploading .title1 {
+    position: absolute;
+    top: 60px;
+    left: 38px;
+    color: #000000;
+    font-weight: 700;
+    font-family: 'montserrat';
+    font-size: 26px;
+    line-height: 25px;
+    text-align: left;
+}
+
+.uploading .chat {
+    position: absolute;
+    top: 45px;
+    left: 1250px;
+    height: 60px;
+    width: 60px;
+}
+
+.uploading .course-input {
+    position: absolute;
+    top: 110px;
+    left: 38px;
+    width: 600px;
+    color: #000000;
+    display: block;
+    height: 50px;
+    border-radius: 3px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-weight: 600;
+    background-color: #f0f0f0;
+}
+
+.uploading .audience-input {
+    position: absolute;
+    top: 110px;
+    left: 660px;
+    width: 640px;
+    display: block;
+    height: 50px;
+    color: #000000;
+    border-radius: 3px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-weight: 600;
+    background-color: #f0f0f0;
+}
+
+.uploading .audience-input::placeholder {
+    color: #000000;
+}
+
+.uploading .dropdown-icon {
+    position: absolute;
+    top: 132px;
+    left: 1275px;
+    cursor: pointer;
+}
+
+.uploading .upload-frame {
+    position: absolute;
+    top: 200px;
+    left: 38px;
+    height: 620px;
+    width: 600px;
+    background-color: #f7f7f7;
+    border-radius: 3px;
+}
+
+.uploading .upload-icon {
+    position: absolute;
+    top: 410px;
+    left: 285px;
+    height: 110px;
+    width: 110px;
+    cursor: pointer;
+}
+
+.uploading .title2 {
+    position: absolute;
+    top: 550px;
+    left: 235px;
+    color: #000000;
+    font-weight: 600;
+    font-family: 'montserrat';
+    font-size: 26px;
+    line-height: 25px;
+    text-align: left;
+}
+
+.uploading .course-image {
+    position: absolute;
+    top: 200px;
+    left: 660px;
+}
+
+.uploading .title3 {
+    position: absolute;
+    top: 200px;
+    left: 945px;
+    color: #000000;
+    font-weight: 600;
+    font-family: 'montserrat';
+    font-size: 20px;
+    line-height: 25px;
+    text-align: left;
+}
+
+.uploading .edit-pen {
+    position: absolute;
+    top: 307px;
+    left: 1085px;
+}
+
+.uploading .paragraph {
+    position: absolute;
+    top: 340px;
+    left: 945px;
+    color: #000000;
+    font-family: 'montserrat';
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    line-height: 22px;
+ }
+
+ .uploading .group2 {
+    position: absolute;
+    top: 185px;
+    left: 0px;
+    text-wrap: nowrap;
+ }
+
+ .uploading .delete-icon {
+    position: absolute;
+    top: 370px;
+    left: 770px;
+    cursor: pointer;
+ }
+
+ .uploading .edit-pen2 {
+    position: absolute;
+    top: 307px;
+    left: 1047px;
+}
+
+.uploading .group3 {
+    position: absolute;
+    top: 370px;
+    left: 0px;
+    text-wrap: nowrap;
+ }
+
+ .uploading .upload-another-button {
+    position: absolute;
+    top: 310px;
+    left: 660px;
+    height: 40px;
+    width: 600px;
+    font-family: 'montserrat';
+    font-weight: 600;
+    color: #ffffff;
+    border-radius: 3px;
+    padding-left: 40px;
+    background-color: #1b3664;
+    cursor: pointer;
+ }
+ 
+ .uploading .upload-another-button:hover {
+    background-color: #70bf4c;
+ }
+
+ .uploading .upload-white {
+    position: absolute;
+    top: 888px;
+    left: 840px;
+    height: 40px;
+ }
+
+ .uploading .title4 {
+    position: absolute;
+    top: 890px;
+    left: 38px;
+    color: #000000;
+    font-weight: 700;
+    font-family: 'montserrat';
+    font-size: 20px;
+    line-height: 25px;
+    text-align: left;
+}
+
+.uploading .video-input {
+    position: absolute;
+    top: 940px;
+    left: 38px;
+    width: 600px;
+    color: #000000;
+    display: block;
+    height: 50px;
+    border-radius: 3px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-weight: 600;
+    background-color: #f0f0f0;
+}
+
+.uploading .title5 {
+    position: absolute;
+    top: 1040px;
+    left: 38px;
+    color: #000000;
+    font-weight: 700;
+    font-family: 'montserrat';
+    font-size: 20px;
+    line-height: 25px;
+    text-align: left;
+}
+
+.uploading .description-input {
+    position: absolute;
+    top: 1090px;
+    left: 38px;
+    width: 600px;
+    color: #000000;
+    display: block;
+    height: 250px;
+    border-radius: 3px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-weight: 600;
+    background-color: #f0f0f0;
+    resize: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.uploading .post-button {
+    position: absolute;
+    top: 1370px;
+    left: 38px;
+    height: 40px;
+    width: 150px;
+    font-family: 'montserrat';
+    font-weight: 600;
+    color: #ffffff;
+    border-radius: 6px;
+    background-color: #1b3664;
+    cursor: pointer;
+ }
+ 
+ .uploading .post-button:hover {
+    background-color: #70bf4c;
+ }
+
+ .uploading .footer2 {
+    position: relative;
+    top: 1616px;
+    left: 0px;
+    height: 80px;
+    width: 100%;
+    background-color: #003366;
+  }
+  
+  .uploading .aboutusgroup {
+    position: relative;
+    top: 15px;
+    left: 38px;
+    display: flex;
+    align-items: left;
+    gap: 30px;
+    text-align: left;
+    font-family: 'montserrat';
+    font-weight: 600;
+    font-size: 12px;
+    color: #ffffff;
+  }
+  
+  .uploading .footerlinks {
+    color: #ffffff;
+    cursor: pointer;
+  }
+  
+  .uploading .footerlinks:hover {
+    color: #03d387;
+  }
+  
+  .uploading .social-links {
+    position: absolute;
+    display: flex;
+    gap: 35px;
+    margin-top: 30px;
+    left: 38px;
+  }
+  
+  .uploading .facebook-icon {
+    height: 20px;
+    cursor: pointer;
+  }
+  
+  .uploading .twitter-icon {
+    height: 15px;
+    margin-top: 2px;
+    cursor: pointer;
+  }
+  
+  .uploading .instagram-icon {
+    height: 20px;
+    cursor: pointer;
+  }
+  
+  .uploading .youtube-icon {
+    height: 20px;
+    cursor: pointer;
+  }
+  
+  .uploading .rights {
+    position: relative;
+    margin-top: 5px;
+    left: 35%;
+    color: #ffffff;
+    font-family: 'montserrat';
+    font-size: 13px;
+    font-weight: 700;
+  }

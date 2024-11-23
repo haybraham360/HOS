@@ -1,0 +1,359 @@
+.signup {
+  background-color: #ffffff;
+  position: relative;
+  width: 100%;
+  height: 1090px;
+  overflow: hidden;
+}
+
+.signup .logo {
+  position: absolute;
+  margin-left: 3%;
+  top: 20px;
+  width: 140px;
+  z-index: 1;
+}
+
+.signup .header-images {
+  position: absolute;
+  top: 80px;
+  left: 14%;
+  height: 180px;
+}
+
+.signup .wrapper {
+  margin-top: 370px;
+  height: 520px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  z-index: 1;
+}
+
+.signup .form-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 470px;
+  max-width: 80%;
+  min-width: 100px;
+  min-height: 600px;
+  padding: 20px 40px;
+  border-radius: 6px;
+  box-shadow: 0px 0px 25px 0px rgba(22, 22, 22, 0.25);
+  background-color: #ffffff;
+  color: #ffffff;
+  z-index: 0;
+}
+
+.signup .form {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.signup .name-label {
+  position: absolute;
+  top: 415px;
+  margin-left: -150px;
+  color: #000000;
+  font-family: 'montserrat';
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.signup .name-input {
+  position: absolute;
+  top: 440px;
+  float: right;
+  width: 300px;
+  display: block;
+  color: #000000;
+  border: 1px solid #999;
+  height: 30px;
+  border-radius: 3px;
+  padding-left: 10px;
+  font-weight: 600;
+  background-color: #f0f0f0;
+}
+
+.signup .lastname-label {
+  position: absolute;
+  top: 495px;
+  margin-left: -150px;
+  color: #000000;
+  font-family: 'montserrat';
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.signup .lastname-input {
+  position: absolute;
+  top: 520px;
+  float: right;
+  width: 300px;
+  display: block;
+  color: #000000;
+  border: 1px solid #999;
+  height: 30px;
+  border-radius: 3px;
+  padding-left: 10px;
+  font-weight: 600;
+  background-color: #f0f0f0;
+}
+
+.signup .email-label {
+  position: absolute;
+  top: 575px;
+  margin-left: -150px;
+  color: #000000;
+  font-family: 'montserrat';
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.signup .email-input {
+  position: absolute;
+  top: 600px;
+  float: right;
+  width: 300px;
+  display: block;
+  color: #000000;
+  border: 1px solid #999;
+  height: 30px;
+  border-radius: 3px;
+  padding-left: 10px;
+  font-weight: 600;
+  background-color: #f0f0f0;
+}
+
+.signup .password-label {
+  position: absolute;
+  top: 655px;
+  margin-left: -150px;
+  color: #000000;
+  font-family: 'montserrat';
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.signup .password-input {
+  position: absolute;
+  top: 680px;
+  float: right;
+  width: 300px;
+  display: block;
+  color: #000000;
+  border: 1px solid #999;
+  height: 30px;
+  border-radius: 3px;
+  padding-left: 10px;
+  font-weight: 600;
+  background-color: #f0f0f0;
+}
+
+.signup .re-enterpassword-label {
+  position: absolute;
+  top: 735px;
+  margin-left: -150px;
+  color: #000000;
+  font-family: 'montserrat';
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.signup .re-enterpassword-input {
+  position: absolute;
+  top: 760px;
+  float: right;
+  width: 300px;
+  display: block;
+  color: #000000;
+  border: 1px solid #999;
+  height: 30px;
+  border-radius: 3px;
+  padding-left: 10px;
+  font-weight: 600;
+  background-color: #f0f0f0;
+}
+
+.signup .signupheader {
+  font-size: 24px;
+  font-weight: 600;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  font-family: 'montserrat';
+  font-weight: 700;
+  color: #000000;
+}
+
+.signup .p {
+  position: absolute;
+  top: 885px;
+  margin-left: 40px;
+  text-wrap: nowrap;
+  color: #000000;
+  font-family: 'montserrat';
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.signup .spanlogin {
+  color: #70bf4c;
+  font-family: 'montserrat';
+  font-weight: 600;
+  font-style: italic;
+  cursor: pointer;
+}
+
+.signup .signupbutton {
+  position: absolute;
+  top: 830px;
+  margin-left: -67px;
+  width: 138px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: #036;
+  font-weight: 600;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.signup .signupbutton:hover {
+  background-color: rgb(2, 63, 124);
+  color: #fefefe;
+}
+
+.signup .reg-success-message {
+  position: absolute;
+  top: 330px;
+  left: 29%;
+  color: #04f824;
+  font-family: 'montserrat';
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.signup .contactgroup {
+  position: absolute;
+  top: 1040px;
+  left: 4.7%;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  color: #000000;
+}
+
+.signup .contact {
+  font-family: 'montserrat';
+  font-size: 12px;
+  font-weight: 700;
+  color: #000000;
+  cursor: pointer;
+}
+
+.signup .contact:hover {
+  color: #70bf4c;
+  list-style: none;
+}
+
+.signup .terms {
+  font-family: 'montserrat';
+  font-size: 12px;
+  font-weight: 700;
+  color: #000000;
+  cursor: pointer;
+}
+
+.signup .terms:hover {
+  color: #70bf4c;
+}
+
+.signup .privacy {
+  font-family: 'montserrat';
+  font-size: 12px;
+  font-weight: 700;
+  color: #000000;
+  cursor: pointer;
+}
+
+.signup .privacy:hover {
+  color: #70bf4c;
+}
+
+.signup .social-links {
+  position: absolute;
+  display: flex;
+  gap: 35px;
+  top: 1035px;
+  left: 485px;
+  height: 15px;
+}
+
+.signup .rights {
+  position: absolute;
+  top: 1040px;
+  left: 73%;
+  color: #000000;
+  font-family: 'montserrat';
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.signup section {
+  position: absolute;
+  left: 33%;
+  display: flex;
+  flex-direction: column;
+}
+
+.signup a, a:visited {
+  color: #fff;
+}
+
+.signup .instructions {
+  font-size: 0.75rem;
+  border-radius: 0.5rem;
+  background: #000;
+  color: #fff;
+  padding: 0.25rem;
+  position: relative;
+  bottom: -10px;
+}
+
+.signup .instructions > svg {
+  margin-right: 0.25rem;
+}
+
+.signup .offscreen {
+  position: absolute;
+  left: -9999px;
+}
+
+.signup .hide {
+  display: none;
+}
+
+.signup .valid {
+  color: limegreen;
+  margin-left: 0.25rem;
+}
+
+.signup .invalid {
+  color: red;
+  margin-left: 0.25rem;
+}
+
+.signup .errmsg {
+  background-color: lightpink;
+  color: firebrick;
+  font-weight: bold;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.signup .line {
+  display: inline-block;
+}

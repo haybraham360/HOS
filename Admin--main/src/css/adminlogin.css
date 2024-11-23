@@ -1,0 +1,218 @@
+.adminlogin {
+    background-color: #ffffff;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+ }
+ 
+ .adminlogin .logo {
+    position: absolute;
+    margin-left: 4.7%;
+    top: 38px;
+    width: 140px;
+    z-index: 1;
+ }
+ 
+ .adminlogin .login-image {
+    position: absolute;
+    top: 0px;
+    left: 0%;
+    width: 100%;
+    height: 480px;
+ }
+ 
+ .adminlogin .welcomemessage {
+    position: absolute;
+    top: 110px;
+    left: 4.7%;
+    font-family: 'montserrat';
+    font-size: 30px;
+    color: #ffffff;
+    text-align: left;
+    line-height: 36px;
+ }
+ 
+ .adminlogin .curveline {
+    position: absolute;
+    top: 40px;
+    right: 0%;
+    height: 500px;
+ }
+ 
+ .adminlogin .female-worker {
+    position: absolute;
+    top: 100px;
+    right: 50px;
+    height: 150px;
+ }
+ 
+ .adminlogin .male-worker {
+    position: absolute;
+    top: 260px;
+    left: 77%;
+    height: 100px;
+ }
+ 
+ .adminlogin .wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #bab9b9;
+    z-index: 1;
+ }
+ 
+ .adminlogin .form-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 100px;
+    transform: translateY(-50%);
+    width: 400px;
+    max-width: 80%;
+    min-width: 100px;
+    padding: 50px 40px;
+    border-radius: 6px;
+    box-shadow: 0px 0px 25px 0px rgba(22, 22, 22, 0.25);
+    background-color: #ffffff;
+    color: #ffffff;
+    z-index: 1;
+ }
+ 
+ .adminlogin .form {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+ .adminlogin .signupheader {
+    font-size: medium;
+    font-weight: 600;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    font-family: 'montserrat';
+    font-weight: 700;
+    color: #000000;
+ }
+ 
+  .adminlogin .contactgroup {
+    position: absolute;
+    left: 10px;
+    bottom: 0;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    color: #000000;
+    font-family: 'Poppins';
+    font-size: 14px;
+  }
+ 
+  .adminlogin .contact {
+    cursor: pointer;
+    color: #000000;
+  }
+ 
+  .adminlogin .contact:hover {
+    color: #70bf4c;
+  }
+ 
+  .adminlogin .terms {
+    cursor: pointer;
+    color: #000000;
+  }
+ 
+  .adminlogin .terms:hover {
+    color: #70bf4c;
+  }
+ 
+  .adminlogin .privacy {
+    cursor: pointer;
+    color: #000000;
+  }
+ 
+  .adminlogin .privacy:hover {
+    color: #70bf4c;
+  }
+ 
+  .adminlogin .social-links {
+    display: flex;
+    position: absolute;
+    padding: 30px;
+    bottom: 0;
+    right: 0px;
+    gap: 50px;
+  }
+
+  .social-links > *{
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+  } 
+  .adminlogin .rights {
+    position: absolute;
+    top: 1040px;
+    left: 73%;
+    color: #000000;
+    font-family: 'poppins';
+    font-size: 12px;
+    font-weight: 700;
+  }
+
+  section {
+    position: absolute;
+    left: 33%;
+    display: flex;
+    flex-direction: column;
+}
+
+a, a:visited {
+    color: #fff;
+}
+
+.instructions {
+    position: absolute;
+    bottom: 50px;
+    right: 0;
+    font-size: 0.75rem;
+    border-radius: 0.5rem;
+    background: #000;
+    color: #fff;
+    padding: 0.25rem;
+    
+}
+
+.instructions > svg {
+    margin-right: 0.25rem;
+}
+
+.offscreen {
+    position: absolute;
+    left: -9999px;
+}
+
+.hide {
+    display: none;
+}
+
+.valid {
+    color: limegreen;
+    margin-left: 0.25rem;
+}
+
+.invalid {
+    color: red;
+    margin-left: 0.25rem;
+}
+
+.errmsg {
+    background-color: lightpink;
+    color: firebrick;
+    font-weight: bold;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.line {
+    display: inline-block;
+}

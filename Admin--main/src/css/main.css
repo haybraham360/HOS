@@ -1,0 +1,73 @@
+label{
+    color: #000000;
+    font-family: 'montserrat';
+    font-size: 14px;
+    font-weight: 500;
+}
+
+input[type=text], input[type=email], input[type=password], textarea{
+    /* border: 1px solid #999; */
+    font-family: 'poppins';
+    color: #000000;
+    height: 45px;
+    padding: 12px;
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 12px;
+    background-color: #f0f0f0;
+}
+
+.hosbutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'poppins';
+    font-size: 14px !important;
+    padding: 12px !important;
+    border-radius: 5px;
+    background-color: #036 !important;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+button[disabled]{
+    background-color: #999 !important;
+    color: #fefefe;
+    cursor: not-allowed;
+}
+
+button:hover{
+    background-color: rgb(2, 63, 124);
+    color: #fefefe;
+}
+
+.spinner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 100px;
+    border-top: 2px solid #036;
+    border-right: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+    border-left: 2px solid transparent;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.ck.ck-editor__editable_inline[dir=ltr]{
+    height: 150px;
+}
+
+.ck-editor{
+    width: 100% !important;
+}

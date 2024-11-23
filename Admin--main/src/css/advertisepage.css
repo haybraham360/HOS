@@ -1,0 +1,457 @@
+.advertise {
+    position: relative;
+    background-color: #ffffff;
+    width: 100%;
+    height: 2570px;
+    overflow: hidden;
+}
+
+.advertise .profile-name {
+    position: fixed;
+    top: 37px;
+    left: 1120px;
+    color: #1A1A1A;
+    font-weight: 500;
+    font-family: 'montserrat';
+    font-size: 16px;
+    line-height: 26px;
+    text-align: left;
+    z-index: 100;
+}
+
+.advertise .profile-pic {
+    position: fixed;
+    top: 37px;
+    left: 1220px;
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+    z-index: 100;
+}
+
+.advertise .topframe {
+    position: absolute;
+    top: 100px;
+    left: 0;
+    background-color: #036;
+    width: 100%;
+    height: 73.542px;
+    flex-shrink: 0;
+    z-index: 0;
+ }
+ 
+ .advertise .ribbon1 {
+    position: absolute;
+    top: 120px;
+    left: 20px;
+    z-index: 1;
+ }
+ 
+ .advertise .jon {
+    position: absolute;
+    top: 125px;
+    left: 62px;
+    color: #ffffff;
+    font-family: 'montserrat';
+    font-weight: 700;
+ }
+ 
+ .advertise .star1 {
+    position: absolute;
+    top: 130px;
+    left: 155px;
+    z-index: 1;
+ }
+ 
+ .advertise .point {
+    position: absolute;
+    top: 125px;
+    left: 182px;
+    color: #ffffff;
+    font-family: 'montserrat';
+    font-weight: 700;
+ }
+ 
+ .advertise .polygon1 {
+    position: absolute;
+    top: 126px;
+    left: 290px;
+ }
+ 
+ .advertise .group2 {
+    position: absolute;
+    top: 0px;
+    left: 310px;
+    text-wrap: nowrap;
+ }
+ 
+ .advertise .polygon2 {
+    position: absolute;
+    top: 126px;
+    left: 600px;
+ }
+ 
+ .advertise .group3 {
+    position: absolute;
+    top: 0px;
+    left: 620px;
+    text-wrap: nowrap;
+ }
+ 
+ .advertise .leaderboardbutton {
+    position: absolute;
+    top: 118px;
+    left: 940px;
+    height: 40px;
+    width: 170px;
+    font-family: 'montserrat';
+    font-weight: 500;
+    color: #ffffff;
+    border: 1px solid #fff;
+    border-radius: 9px;
+    background-color: #1b3664;
+    cursor: pointer;
+ }
+ 
+ .advertise .leaderboardbutton:hover {
+    background-color: #ffffff;
+    color: #1b3664;
+    border: 1px solid #1b3664;
+ }
+ 
+ .advertise .group4 {
+    position: absolute;
+    top: 0px;
+    left: 1110px;
+    text-wrap: nowrap;
+ }
+
+ .advertise .title1 {
+    position: absolute;
+    top: 200px;
+    left: 500px;
+    color: #000000;
+    font-weight: 800;
+    font-family: 'montserrat';
+    font-size: 30px;
+    font-style: italic;
+    line-height: 35px;
+    text-align: left;
+    z-index: 1;
+}
+
+.advertise .leaderboard-image1 {
+    position: absolute;
+    top: 260px;
+    left: 38px;
+    width: 94%;
+}
+
+.advertise .play-icon-blue {
+    position: absolute;
+    top: 355px;
+    left: 640px;
+    height: 90px;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.advertise .advertise-button {
+    position: absolute;
+    top: 450px;
+    left: 108px;
+    height: 40px;
+    width: 200px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: 'montserrat';
+    font-size: 14px;
+    background-color: #70bf4c;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.advertise .advertise-button:hover {
+    background-color: #56923b;
+}
+
+.advertise .chat {
+    position: absolute;
+    top: 556px;
+    left: 1250px;
+    height: 60px;
+    width: 60px;
+}
+
+.advertise .title2 {
+    position: absolute;
+    top: 600px;
+    left: 500px;
+    color: #000000;
+    font-weight: 800;
+    font-family: 'montserrat';
+    font-size: 30px;
+    font-style: italic;
+    line-height: 35px;
+    text-align: left;
+    z-index: 1;
+}
+
+.advertise .leaderboard-image2 {
+    position: absolute;
+    top: 680px;
+    left: 38px;
+    width: 45%;
+    height: 450px;
+}
+
+.advertise .advertise-button2 {
+    position: absolute;
+    top: 1000px;
+    left: 108px;
+    height: 40px;
+    width: 200px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: 'montserrat';
+    font-size: 14px;
+    background-color: #70bf4c;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.advertise .advertise-button2:hover {
+    background-color: #56923b;
+}
+
+.advertise .ad-group3 {
+    position: absolute;
+    top: 0px;
+    left: 665px;
+    text-wrap: nowrap;
+}
+
+.advertise .leaderboard-image3 {
+    position: absolute;
+    top: 680px;
+    left: 700px;
+    width: 45%;
+    height: 450px;
+}
+
+.advertise .title3 {
+    position: absolute;
+    top: 1190px;
+    left: 300px;
+    color: #000000;
+    font-weight: 800;
+    font-family: 'montserrat';
+    font-size: 30px;
+    font-style: italic;
+    line-height: 35px;
+    text-align: left;
+    z-index: 1;
+}
+
+.advertise .leaderboard-image4 {
+    position: absolute;
+    top: 1265px;
+    left: 38px;
+    width: 54%;
+}
+
+.advertise .paragraph1 {
+    position: absolute;
+    top: 1265px;
+    left: 800px;
+    color: #000000;
+    font-weight: 400;
+    font-family: 'montserrat';
+    font-size: 17px;
+    line-height: 27px;
+    text-align: left;
+}
+
+.advertise .paragraph1-bold {
+    color: #000000;
+    font-weight: 600;
+    font-family: 'montserrat';
+    font-size: 17px;
+    line-height: 27px;
+    text-align: left;
+}
+
+.advertise .advertise-button3 {
+    position: absolute;
+    top: 1390px;
+    left: 1018px;
+    height: 40px;
+    width: 200px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: 'montserrat';
+    font-size: 14px;
+    background-color: #70bf4c;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.advertise .advertise-button3:hover {
+    background-color: #56923b;
+}
+
+.advertise .title4 {
+    position: absolute;
+    top: 1490px;
+    left: 800px;
+    color: #000000;
+    font-weight: 800;
+    font-family: 'montserrat';
+    font-size: 30px;
+    font-style: italic;
+    line-height: 35px;
+    text-align: left;
+    z-index: 1;
+}
+
+.advertise .leaderboard-image5 {
+    width: 20%;
+    height: 550px;
+}
+
+.advertise .image3-group {
+    position: absolute;
+    top: 1565px;
+    left: 38px;
+    display: flex;
+    align-items: center;
+    gap: 70px;
+}
+
+.advertise .paragraph2 {
+    position: absolute;
+    top: 2175px;
+    left: 430px;
+    color: #000000;
+    font-weight: 400;
+    font-family: 'montserrat';
+    font-size: 17px;
+    line-height: 27px;
+    text-align: center;
+}
+
+.advertise .paragraph1-bold {
+    color: #000000;
+    font-weight: 600;
+    font-family: 'montserrat';
+    font-size: 17px;
+    line-height: 27px;
+    text-align: left;
+}
+
+.advertise .advertise-button4 {
+    position: absolute;
+    top: 2330px;
+    left: 585px;
+    height: 40px;
+    width: 200px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: 'montserrat';
+    font-size: 14px;
+    background-color: #70bf4c;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.advertise .advertise-button4:hover {
+    background-color: #56923b;
+}
+
+.advertise .footer2 {
+    position: absolute;
+    top: 2490px;
+    left: 0px;
+    height: 80px;
+    width: 100%;
+    background-color: #003366;
+}
+
+.advertise .aboutusgroup {
+    position: absolute;
+    margin-top: 2535px;
+    left: 38px;
+    display: flex;
+    align-items: left;
+    gap: 30px;
+    text-align: left;
+    font-family: 'montserrat';
+    font-weight: 600;
+    font-size: 12px;
+    color: #ffffff;
+ }
+
+ .advertise .footerlinks {
+    color: #ffffff;
+    cursor: pointer;
+  }
+ 
+  .advertise .footerlinks:hover {
+    color: #03d387;
+  }
+
+  .advertise .social-links {
+    position: absolute;
+    display: flex;
+    gap: 35px;
+    margin-top: 2535px;
+    left: 435px;
+  }
+ 
+  .advertise .facebook-icon {
+    cursor: pointer;
+  }
+ 
+  .advertise .twitter-icon {
+    height: 20px;
+    cursor: pointer;
+  }
+ 
+  .advertise .instagram-icon {
+    cursor: pointer;
+  }
+ 
+  .advertise .youtube-icon {
+    cursor: pointer;
+  }
+ 
+  .advertise .rights {
+    position: absolute;
+    margin-top: 2540px;
+    left: 72.5%;
+    color: #ffffff;
+    font-family: 'montserrat';
+    font-size: 13px;
+    font-weight: 700;
+  }
+
+.advertise .signup-button {
+    position: absolute;
+    margin-top: 2500px;
+    left: 1182px;
+    height: 30px;
+    width: 120px;
+    color: #70bf4c;
+    font-weight: 700;
+    font-family: 'montserrat';
+    font-size: 16px;
+    border: 1px solid #70bf4c;
+    background-color: transparent;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.advertise .signup-button:hover {
+    background-color: #ebeaea;
+    color: #003366;
+}

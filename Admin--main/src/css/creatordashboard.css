@@ -1,0 +1,528 @@
+.creator {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 99%;
+    height: 3160px;
+    overflow: hidden;
+}
+
+.creator .creator-image {
+    position: absolute;
+    top: 170px;
+    left: 38px;
+    width: 94%;
+}
+
+.creator .chat {
+    position: absolute;
+    top: 503px;
+    left: 1250px;
+    height: 60px;
+    width: 60px;
+}
+
+.creator .upload-frame {
+    position: absolute;
+    top: 570px;
+    left: 38px;
+    height: 356px;
+    width: 400px;
+    background-color: #f7f7f7;
+    border-radius: 3px;
+}
+
+.creator .upload-icon {
+    position: absolute;
+    top: 680px;
+    left: 205px;
+    height: 60px;
+    width: 60px;
+    cursor: pointer;
+}
+
+.creator .upload-icon2 {
+   position: absolute;
+   top: 110px;
+   left: 170px;
+   height: 60px;
+   width: 60px;
+   z-index: 10;
+   cursor: pointer;
+}
+
+.creator .upload-icon3 {
+   position: absolute;
+   margin-top: 110px;
+   left: 170px;
+   height: 60px;
+   width: 60px;
+   cursor: pointer;
+}
+
+.creator .title1 {
+    position: absolute;
+    top: 780px;
+    left: 135px;
+    color: #000000;
+    font-weight: 600;
+    font-family: 'montserrat';
+    font-size: 26px;
+    line-height: 25px;
+    text-align: left;
+}
+
+.creator .upload-ebook {
+   position: absolute;
+   top: 210px;
+   left: 95px;
+   color: #000000;
+   font-weight: 600;
+   font-family: 'montserrat';
+   font-size: 26px;
+   line-height: 25px;
+   text-align: left;
+}
+
+.creator .write-blog {
+   position: absolute;
+   top: 210px;
+   left: 115px;
+   color: #000000;
+   font-weight: 600;
+   font-family: 'montserrat';
+   font-size: 26px;
+   text-align: left;
+   line-height: normal;
+}
+
+.creator .creator-group2 {
+    position: absolute;
+    top: 0px;
+    left: 430px;
+    text-wrap: nowrap;
+}
+
+.creator .creator-group3 {
+    position: absolute;
+    top: 0px;
+    left: 860px;
+    text-wrap: nowrap;
+}
+
+.creator .title2 {
+    position: absolute;
+    top: 780px;
+    left: 155px;
+    color: #000000;
+    font-weight: 600;
+    font-family: 'montserrat';
+    font-size: 26px;
+    line-height: 25px;
+    text-align: left;
+}
+
+.creator .title3 {
+   position: absolute;
+   top: 970px;
+   left: 38px;
+   color: #000000;
+   font-weight: 600;
+   font-family: 'montserrat';
+   font-size: 20px;
+   text-align: left;
+   line-height: normal;
+}
+
+.creator .line1 {
+    position: absolute;
+    top: 982px;
+    left: 175px;
+    width: 84%;
+    height: 1px;
+}
+
+.creator .libraryframe1 {
+    position: relative;
+    top: 1055px;
+    left: 1270px;
+    height: 340px;
+    width: 389px;
+    color: #1a1a1a;
+    border: 2px solid #1a1a1a;
+    background-color: transparent;
+    border-radius: 7px;
+ }
+
+ .creator .video1 {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 390px;
+ }
+ 
+ .creator .playicon {
+    position: relative;
+    top: -140px;
+    left: 140px;
+    cursor: pointer;
+ }
+
+ .creator .librarytitle1 {
+    position: relative;
+    top: -80px;
+    left: 20px;
+    color: #1a1a1a;
+    font-family: 'montserrat';
+    font-weight: 700;
+    font-size: large;
+    text-align: left;
+    line-height: normal;
+ }
+
+ .creator .librarytitle2 {
+    position: relative;
+    top: -60px;
+    left: 20px;
+    color: #1a1a1a;
+    font-family: 'montserrat';
+    font-weight: 500;
+    font-size: 14px;
+    text-align: left;
+    line-height: normal;
+ }
+
+ .creator .playdarkicon {
+    position: relative;
+    top: -50px;
+    left: 25px;
+    cursor: pointer;
+ }
+
+ .creator .librarytitle3 {
+    position: relative;
+    top: -72px;
+    left: 55px;
+    color: #1a1a1a;
+    font-family: 'montserrat';
+    font-weight: 500;
+    font-size: small;
+    text-align: left;
+    line-height: normal;
+ }
+
+ .creator .buynowbutton {
+    position: relative;
+    top: -30px;
+    left: -80px;
+    height: 40px;
+    width: 130px;
+    font-family: 'montserrat';
+    font-weight: 600;
+    color: #1b3664;
+    border: 1.5px solid #1b3664;
+    border-radius: 9px;
+    background-color: transparent;
+    cursor: pointer;
+ }
+ 
+ .creator .buynowbutton:hover {
+    background-color: #70bf4c;
+ }
+ 
+ .creator .previewbutton {
+    position: relative;
+    top: -30px;
+    left: -56px;
+    height: 40px;
+    width: 100px;
+    font-family: 'montserrat';
+    font-weight: 500;
+    color: #ffffff;
+    border-radius: 9px;
+    background-color: #1b3664;
+    cursor: pointer;
+ }
+
+ .creator .librarygroup {
+   display: flex;
+   gap: 50px;
+ }
+
+ .creator .title6 {
+    position: absolute;
+    top: 1510px;
+    left: 38px;
+    color: #000000;
+    font-weight: 700;
+    font-family: 'montserrat';
+    font-size: 20px;
+    text-align: left;
+    line-height: normal;
+}
+
+.creator .line2 {
+    position: absolute;
+    top: 1522px;
+    left: 175px;
+    width: 84%;
+    height: 1px;
+}
+
+ .creator .image1 {
+    position: relative;
+    top: 1570px;
+    left: 0px;
+    border: 5px solid #d9d9d9;
+    background-color: rgba(217, 217, 217, 0.50);
+    border-radius: 3px;
+    height: 15rem;
+    min-width: 15rem;
+ }
+ 
+ .creator .title4 {
+    position: relative;
+    top: 1585px;
+    left: -94px;
+    color: #d9d9d9;
+    font-size: 18px;
+    font-weight: 600;
+ }
+ 
+ .creator .title5 {
+    position: relative;
+    top: 1590px;
+    left: -1px;
+    color: #000000;
+    font-weight: 700;
+    font-family: 'montserrat';
+    font-size: 20px;
+    text-align: left;
+    line-height: 28px;
+ }
+ 
+ .creator .paragraph2 {
+    position: relative;
+    top: 1685px;
+    left: 0px;
+    color: #000000;
+    font-family: 'montserrat';
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    line-height: 25px;
+    max-width: 230px;
+ }
+ 
+ .creator .edit-button {
+    position: relative;
+    top: 1700px;
+    left: -14px;
+    height: 40px;
+    width: 120px;
+    font-family: 'montserrat';
+    font-weight: 600;
+    color: #1b3664;
+    border: 1.5px solid #1b3664;
+    border-radius: 9px;
+    background-color: transparent;
+    cursor: pointer;
+ }
+ 
+ .creator .edit-button:hover {
+    background-color: #70bf4c;
+ }
+ 
+ .creator .previewbutton2 {
+    position: relative;
+    top: 1700px;
+    left: 0px;
+    height: 40px;
+    width: 90px;
+    font-family: 'montserrat';
+    font-weight: 500;
+    color: #ffffff;
+    border-radius: 9px;
+    background-color: #1b3664;
+    cursor: pointer;
+ }
+
+ .creator .books-group {
+   display: flex;
+   flex-direction: row;
+   gap: 102px;
+ }
+
+.creator .title7 {
+    position: absolute;
+    top: 2260px;
+    left: 38px;
+    color: #000000;
+    font-weight: 700;
+    font-family: 'montserrat';
+    font-size: 20px;
+    text-align: left;
+    line-height: normal;
+}
+
+.creator .line3 {
+    position: absolute;
+    top: 2272px;
+    left: 175px;
+    width: 84%;
+    height: 1px;
+}
+
+.creator .image2 {
+    position: relative;
+    top: 2320px;
+    left: -1260px;
+    border: 5px solid #d9d9d9;
+    background-color: rgba(217, 217, 217, 0.50);
+    border-radius: 3px;
+    height: 300px;
+    max-width: 280px;
+ }
+ 
+ .creator .title8 {
+    position: relative;
+    top: 2340px;
+    left: -1365px;
+    color: #d9d9d9;
+    font-size: 18px;
+    font-weight: 600;
+ }
+ 
+ .creator .title9 {
+    position: relative;
+    top: 2350px;
+    left: -1260px;
+    color: #000000;
+    font-weight: 700;
+    font-family: 'montserrat';
+    font-size: 20px;
+    text-align: left;
+    line-height: 28px;
+ }
+ 
+ .creator .paragraph3 {
+    position: relative;
+    top: 2370px;
+    left: -1260px;
+    color: #000000;
+    font-family: 'montserrat';
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    line-height: 25px;
+ }
+ 
+ .creator .edit-button2 {
+    position: relative;
+    top: 2400px;
+    left: -1290px;
+    height: 40px;
+    width: 120px;
+    font-family: 'montserrat';
+    font-weight: 600;
+    color: #1b3664;
+    border: 1.5px solid #1b3664;
+    border-radius: 9px;
+    background-color: transparent;
+    cursor: pointer;
+ }
+ 
+ .creator .edit-button2:hover {
+    background-color: #70bf4c;
+ }
+ 
+ .creator .previewbutton3 {
+    position: relative;
+    top: 2400px;
+    left: -1270px;
+    height: 40px;
+    width: 90px;
+    font-family: 'montserrat';
+    font-weight: 500;
+    color: #ffffff;
+    border-radius: 9px;
+    background-color: #1b3664;
+    cursor: pointer;
+ }
+
+ .creator .articles-group {
+   display: flex;
+   gap: 3.5rem;
+ }
+
+  .creator .footer2 {
+    position: absolute;
+    top: 3080px;
+    left: 0px;
+    height: 80px;
+    width: 100%;
+    background-color: #003366;
+}
+
+.creator .aboutusgroup {
+    position: absolute;
+    margin-top: 3125px;
+    left: 38px;
+    display: flex;
+    align-items: left;
+    gap: 30px;
+    text-align: left;
+    font-family: 'montserrat';
+    font-weight: 600;
+    font-size: 12px;
+    color: #ffffff;
+ }
+
+ .creator .footerlinks {
+    color: #ffffff;
+    cursor: pointer;
+  }
+ 
+  .creator .footerlinks:hover {
+    color: #03d387;
+  }
+
+  .creator .social-links {
+    position: absolute;
+    display: flex;
+    gap: 35px;
+    margin-top: 3125px;
+    left: 435px;
+  }
+ 
+  .creator .facebook-icon {
+    height: 20px;
+    cursor: pointer;
+  }
+ 
+  .creator .twitter-icon {
+    height: 15px;
+    margin-top: 2px;
+    cursor: pointer;
+  }
+ 
+  .creator .instagram-icon {
+    height: 20px;
+    cursor: pointer;
+  }
+ 
+  .creator .youtube-icon {
+    height: 20px;
+    cursor: pointer;
+  }
+ 
+  .creator .rights {
+    position: absolute;
+    margin-top: 3130px;
+    left: 72.5%;
+    color: #ffffff;
+    font-family: 'montserrat';
+    font-size: 13px;
+    font-weight: 700;
+  }
